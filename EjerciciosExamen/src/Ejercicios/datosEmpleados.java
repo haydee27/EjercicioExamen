@@ -31,6 +31,18 @@ public class datosEmpleados {
         emp.setCantEmp(l.nextInt());
         System.out.println("El numero del edificio del area:");
         emp.setNumeroEdi(l.nextInt());
+        
+         //imprimir en pantalla los datos 
+        System.out.println("Su nombre es: " + emp.getNombre());
+        System.out.println("Su edad: " + emp.getEdad());
+        System.out.println("Direccion: " + emp.getDireccion());
+        System.out.println("ID:" + emp.getId());
+        System.out.println(" Area al que pertenece: " + emp.getArea());
+        System.out.println("Ubicacion del edificio: " + emp.getNumeroEdi());
+        System.out.println("Cantidad de empleado: "+ emp.getCantEmp());
+        System.out.println("Cantidad del departamentos que alberga:" + emp.getCantd());
+        System.out.println("Cantidad de pisos del edificio: " + emp.getCantP());
+        
     }
            
 }
